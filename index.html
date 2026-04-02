@@ -4,28 +4,69 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO -->
-  <title data-sl="Kako zgraditi spletno stran, ki prodaja | Website Dojo" data-en="How to Build a Website That Converts | Website Dojo">Kako zgraditi spletno stran, ki prodaja | Website Dojo</title>
-  <meta name="description" data-sl="Naučite se zgraditi spletno stran, ki obiskovalce pretvori v stranke. Preverjeni elementi: hero, zaupanje, cena, FAQ, CTA." data-en="Learn how to build a website that converts visitors into leads and customers. Proven elements: hero, trust, pricing, FAQ, CTA." content="Naučite se zgraditi spletno stran, ki obiskovalce pretvori v stranke. Preverjeni elementi: hero, zaupanje, cena, FAQ, CTA." />
-  <meta property="og:title" content="Website Dojo — Spletna stran, ki prodaja" />
-  <meta property="og:description" content="Vadišče za gradnjo spletnih strani, ki res delujejo. Vsak element je primer dobre prakse." />
-  <meta property="og:type" content="website" />
+  <!-- SEO: Primary -->
+  <title data-sl="Website Dojo | Spletna stran, ki prodaja — vadišče za konverzije" data-en="Website Dojo | A Website That Converts — Conversion Playbook">Website Dojo | Spletna stran, ki prodaja — vadišče za konverzije</title>
+  <meta name="description" data-sl="Naučite se zgraditi spletno stran, ki obiskovalce pretvori v stranke. Vsak element je živi primer. Dual SL/EN." data-en="Learn to build a website that converts visitors into customers. Every element is a live example. Dual SL/EN." content="Naučite se zgraditi spletno stran, ki obiskovalce pretvori v stranke. Vsak element je živi primer. Dual SL/EN." />
+  <meta name="keywords" content="konverzijska spletna stran, spletni marketing, website conversion, copywriting slovenija" />
+  <link rel="canonical" href="https://diamondcrusher42.github.io/website-dojo/" />
+
+  <!-- SEO: Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://diamondcrusher42.github.io/website-dojo/" />
+  <meta property="og:title"       content="Website Dojo — Spletna stran, ki prodaja" />
+  <meta property="og:description" content="Vadišče za gradnjo konverzijskih spletnih strani. 27-koračni skill map z živimi primeri." />
+  <meta property="og:image"       content="https://diamondcrusher42.github.io/website-dojo/og-image.jpg" />
+  <meta property="og:locale"      content="sl_SI" />
+
+  <!-- SEO: Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Website Dojo — Build Websites That Convert" />
+  <meta name="twitter:description" content="27-step skill map with live examples on every section." />
+
+  <!-- Analytics: GA4 (paste your ID) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+
+  <!-- Analytics: Meta Pixel (paste your Pixel ID) -->
+  <!--
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','YOUR_PIXEL_ID'); fbq('track','PageView');
+  </script>
+  -->
 
   <!-- Schema: HowTo -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
-    "name": "Kako zgraditi spletno stran, ki pretvori obiskovalce v stranke",
-    "description": "Korak za korakom vodnik za gradnjo visoko-konverzijske spletne strani.",
-    "step": [
-      { "@type": "HowToStep", "name": "Hero sekcija", "text": "Jasna vrednostna ponudba, problem ki ga rešuješ, CTA." },
-      { "@type": "HowToStep", "name": "Zaupanje in socialni dokaz", "text": "Ocene, DM posnetki, garancije." },
-      { "@type": "HowToStep", "name": "Ponudba s sidranjem cen", "text": "Pokaži višjo ceno najprej, nato popust." },
-      { "@type": "HowToStep", "name": "FAQ", "text": "Odgovori na ugovore preden se pojavijo." },
-      { "@type": "HowToStep", "name": "Jasni CTA", "text": "En primarni poziv k dejanju na vrhu in dnu." }
-    ]
-  }
+  {"@context":"https://schema.org","@type":"HowTo","name":"Kako zgraditi konverzijsko spletno stran","description":"27-koračni vodnik za gradnjo spletne strani, ki pretvori obiskovalce v stranke.",
+  "step":[
+    {"@type":"HowToStep","name":"Definiraj ICP","text":"Določi ciljno stranko, njen problem in transformacijo."},
+    {"@type":"HowToStep","name":"Hero sekcija","text":"Badge + H1 (rešitev problema) + podnaslov + en CTA."},
+    {"@type":"HowToStep","name":"Socialni dokaz","text":"DM posnetki, zvezdice, realne izjave."},
+    {"@type":"HowToStep","name":"Sidranje cen","text":"Pokaži visoko ceno najprej, nato popust."},
+    {"@type":"HowToStep","name":"FAQ schema","text":"JSON-LD za AI iskalnik in Google rich results."}
+  ]}
+  </script>
+
+  <!-- Schema: FAQ -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"Za koga je Website Dojo?",
+     "acceptedAnswer":{"@type":"Answer","text":"Za podjetnike, freelancerje in agencije, ki želijo spletne strani, ki res prodajajo."}},
+    {"@type":"Question","name":"Kaj je konverzijska spletna stran?",
+     "acceptedAnswer":{"@type":"Answer","text":"Stran, ki ima jasen cilj: obiskovalca pretvoriti v naročnika, stranko ali kontakt. Vsak element podpira ta cilj."}},
+    {"@type":"Question","name":"Kateri elementi so na vsaki konverzijski strani?",
+     "acceptedAnswer":{"@type":"Answer","text":"ICP definicija, hero sekcija, zaupanje, socialni dokaz, cena z sidranjem, FAQ, newsletter, kontakt, cookie banner, GA in Meta Pixel."}}
+  ]}
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,359 +76,713 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg: #F8F7F3; --white: #fff; --text: #1A1A1A; --muted: #5A5A5A;
-      --border: #E0DDD4; --accent: #1B4FD8; --accent-light: #EEF3FF;
-      --green: #16A34A; --green-light: #DCFCE7;
-      --yellow: #EAB308; --yellow-light: #FEF9C3;
-      --red: #DC2626;
+      --bg:#F8F7F3; --white:#fff; --text:#1A1A1A; --muted:#5A5A5A;
+      --border:#E0DDD4; --card:#fff;
+      --blue:#1B4FD8; --blue-light:#EEF3FF; --blue-dark:#1340B0;
+      --green:#16A34A; --green-light:#DCFCE7;
+      --yellow:#EAB308; --yellow-light:#FEF9C3;
+      --red:#DC2626; --red-light:#FEE2E2;
+      --purple:#7C3AED; --purple-light:#F3E8FF;
     }
     html { scroll-behavior: smooth; }
-    body { background: var(--bg); color: var(--text); font-family: 'Nunito', sans-serif; line-height: 1.7; }
+    body { background:var(--bg); color:var(--text); font-family:'Nunito',sans-serif; line-height:1.7; }
+
+    /* COOKIE BANNER */
+    #cookie-banner {
+      position:fixed; bottom:0; left:0; right:0; z-index:999;
+      background:#1A1A1A; color:#E0E0E0; padding:14px 24px;
+      display:flex; align-items:center; justify-content:space-between;
+      gap:14px; flex-wrap:wrap; box-shadow:0 -4px 20px rgba(0,0,0,.25);
+    }
+    #cookie-banner p { font-size:.84rem; font-weight:600; flex:1; min-width:180px; }
+    #cookie-banner a { color:#EAB308; text-decoration:underline; }
+    .ck-btns { display:flex; gap:8px; flex-shrink:0; }
+    .ck-accept,.ck-decline {
+      padding:8px 18px; border-radius:10px; font-family:'Nunito',sans-serif;
+      font-weight:800; font-size:.82rem; cursor:pointer; border:none;
+    }
+    .ck-accept  { background:var(--green); color:#fff; }
+    .ck-decline { background:transparent; color:#888; border:1px solid #444; }
 
     /* LANG TOGGLE */
     .lang-toggle {
-      position: fixed; top: 16px; right: 16px; z-index: 200;
-      display: flex; gap: 4px; background: var(--white);
-      border: 2px solid var(--border); border-radius: 100px;
-      padding: 4px; box-shadow: 0 2px 8px rgba(0,0,0,.08);
+      position:fixed; top:14px; right:16px; z-index:200;
+      display:flex; gap:4px; background:var(--white);
+      border:2px solid var(--border); border-radius:100px;
+      padding:4px; box-shadow:0 2px 8px rgba(0,0,0,.08);
     }
     .lang-btn {
-      background: none; border: none; cursor: pointer;
-      padding: 5px 12px; border-radius: 100px;
-      font-family: 'Nunito', sans-serif; font-weight: 800; font-size: .82rem;
-      color: var(--muted); transition: background .15s, color .15s;
+      background:none; border:none; cursor:pointer;
+      padding:5px 12px; border-radius:100px;
+      font-family:'Nunito',sans-serif; font-weight:800; font-size:.8rem;
+      color:var(--muted); transition:background .15s,color .15s;
     }
-    .lang-btn.active { background: var(--accent); color: #fff; }
+    .lang-btn.active { background:var(--blue); color:#fff; }
+
+    /* URGENCY BAR */
+    .urgency { background:var(--red); color:#fff; text-align:center; padding:10px 16px; font-weight:800; font-size:.88rem; }
 
     /* NAV */
     nav {
-      background: var(--white); border-bottom: 2px solid var(--border);
-      padding: 0 24px; height: 60px; display: flex; align-items: center;
-      position: sticky; top: 0; z-index: 100;
-      box-shadow: 0 2px 8px rgba(0,0,0,.05);
+      background:var(--white); border-bottom:2px solid var(--border);
+      padding:0 24px; height:62px; display:flex; align-items:center;
+      position:sticky; top:0; z-index:100;
+      box-shadow:0 2px 8px rgba(0,0,0,.05);
     }
-    .nav-logo { font-weight: 900; font-size: 1.1rem; color: var(--accent); text-decoration: none; }
+    .nav-logo { font-weight:900; font-size:1.1rem; color:var(--blue); text-decoration:none; }
     .nav-pill {
-      margin-left: 14px; background: var(--accent-light); color: var(--accent);
-      font-size: .72rem; font-weight: 800; padding: 3px 10px; border-radius: 100px;
+      margin-left:12px; background:var(--blue-light); color:var(--blue);
+      font-size:.7rem; font-weight:800; padding:3px 10px; border-radius:100px;
     }
 
-    /* SECTIONS */
-    section { padding: 80px 24px; }
-    .container { max-width: 1000px; margin: 0 auto; }
-    .annotation {
-      background: #FFFBEB; border: 2px dashed #F59E0B;
-      border-radius: 12px; padding: 12px 16px; margin-bottom: 28px;
-      font-size: .82rem; font-weight: 700; color: #92400E;
+    /* ANNOTATION */
+    .annot {
+      background:#FFFBEB; border:2px dashed #F59E0B;
+      border-radius:12px; padding:10px 16px; margin-bottom:24px;
+      font-size:.8rem; font-weight:700; color:#92400E; line-height:1.5;
     }
-    .annotation strong { color: #78350F; }
+    .annot strong { color:#78350F; }
+
+    /* LAYOUT */
+    section { padding:72px 24px; }
+    .container { max-width:960px; margin:0 auto; }
+    .section-label {
+      display:inline-block; font-size:.72rem; font-weight:800;
+      letter-spacing:.12em; text-transform:uppercase;
+      padding:4px 14px; border-radius:100px; margin-bottom:12px;
+    }
+    .lb-blue   { background:var(--blue-light);   color:var(--blue); }
+    .lb-green  { background:var(--green-light);  color:var(--green); }
+    .lb-yellow { background:var(--yellow-light); color:#92400E; }
+    .lb-purple { background:var(--purple-light); color:var(--purple); }
+    .lb-red    { background:var(--red-light);    color:var(--red); }
+    .section-title { font-weight:900; font-size:clamp(1.7rem,4vw,2.5rem); margin-bottom:10px; line-height:1.15; }
+    .section-sub { color:var(--muted); font-weight:600; font-size:1rem; max-width:580px; margin-bottom:36px; }
 
     /* HERO */
     .hero {
-      background: var(--white); padding: 80px 24px; text-align: center;
-      border-bottom: 2px solid var(--border);
+      background:var(--white); padding:80px 24px; text-align:center;
+      border-bottom:2px solid var(--border); position:relative; overflow:hidden;
     }
+    .hero::before {
+      content:''; position:absolute; top:-80px; right:-80px;
+      width:320px; height:320px; background:var(--blue-light);
+      border-radius:50%; z-index:0;
+    }
+    .hero > * { position:relative; z-index:1; }
     .hero-badge {
-      display: inline-block; background: var(--accent); color: #fff;
-      font-size: .78rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase;
-      padding: 6px 18px; border-radius: 100px; margin-bottom: 24px;
+      display:inline-block; background:var(--blue); color:#fff;
+      font-size:.78rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase;
+      padding:7px 18px; border-radius:100px; margin-bottom:22px;
     }
     .hero h1 {
-      font-weight: 900; font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1.1;
-      max-width: 700px; margin: 0 auto 18px;
+      font-weight:900; font-size:clamp(2rem,5vw,3.8rem); line-height:1.1;
+      max-width:720px; margin:0 auto 16px;
     }
-    .hero h1 em { color: var(--accent); font-style: normal; }
-    .hero-sub { color: var(--muted); font-size: 1.1rem; font-weight: 600; max-width: 520px; margin: 0 auto 36px; }
-    .cta-primary {
-      display: inline-block; background: var(--accent); color: #fff;
-      padding: 15px 32px; border-radius: 14px; font-weight: 800; font-size: 1rem;
-      text-decoration: none; box-shadow: 0 4px 16px rgba(27,79,216,.3);
-      transition: transform .15s, box-shadow .15s;
-    }
-    .cta-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(27,79,216,.45); }
+    .hero h1 em { color:var(--blue); font-style:normal; }
+    .hero-sub { color:var(--muted); font-size:1.1rem; font-weight:600; max-width:520px; margin:0 auto 32px; }
+    .hero-cta-row { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
 
-    /* TRUST SIGNALS */
+    /* BUTTONS */
+    .btn {
+      display:inline-flex; align-items:center; gap:8px;
+      padding:14px 28px; border-radius:14px; font-weight:800; font-size:.95rem;
+      text-decoration:none; border:none; cursor:pointer;
+      font-family:'Nunito',sans-serif;
+      transition:transform .15s, box-shadow .15s;
+    }
+    .btn:hover { transform:translateY(-2px); }
+    .btn-blue   { background:var(--blue);  color:#fff; box-shadow:0 4px 16px rgba(27,79,216,.3); }
+    .btn-blue:hover { box-shadow:0 6px 24px rgba(27,79,216,.45); }
+    .btn-outline { background:var(--white); color:var(--blue); border:2px solid var(--blue); }
+    .btn-green  { background:var(--green); color:#fff; }
+
+    /* TRUST BAR */
     .trust-bar {
-      background: var(--accent-light); border-top: 2px solid #C7D7F8;
-      border-bottom: 2px solid #C7D7F8; padding: 16px 24px;
-      display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;
+      background:var(--blue-light); border-top:2px solid #C7D7F8; border-bottom:2px solid #C7D7F8;
+      padding:14px 24px; display:flex; justify-content:center; gap:36px; flex-wrap:wrap;
     }
-    .trust-item { font-size: .88rem; font-weight: 800; color: var(--accent); }
+    .trust-item { font-size:.86rem; font-weight:800; color:var(--blue); }
 
-    /* CONTENT SECTIONS */
-    .lesson-block {
-      background: var(--white); border: 2px solid var(--border);
-      border-radius: 24px; padding: 40px; margin-bottom: 32px;
+    /* ICP BOX */
+    .icp-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px; }
+    .icp-card {
+      background:var(--white); border:2px solid var(--border); border-radius:18px; padding:24px;
     }
-    .lesson-num {
-      display: inline-block; background: var(--accent); color: #fff;
-      font-weight: 900; font-size: .78rem; padding: 4px 12px; border-radius: 100px;
-      margin-bottom: 16px; letter-spacing: .08em;
-    }
-    .lesson-block h2 { font-weight: 900; font-size: 1.5rem; margin-bottom: 10px; }
-    .lesson-block p { color: var(--muted); font-weight: 600; margin-bottom: 14px; }
-    .do-dont {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px;
-    }
-    .do, .dont {
-      border-radius: 14px; padding: 18px;
-    }
-    .do { background: var(--green-light); border: 2px solid #86EFAC; }
-    .dont { background: #FEE2E2; border: 2px solid #FCA5A5; }
-    .do h4 { color: var(--green); font-weight: 800; font-size: .85rem; margin-bottom: 8px; }
-    .dont h4 { color: var(--red); font-weight: 800; font-size: .85rem; margin-bottom: 8px; }
-    .do ul, .dont ul { padding-left: 16px; font-size: .85rem; font-weight: 600; color: var(--text); }
-    .do li, .dont li { margin-bottom: 4px; }
+    .icp-card .ico { font-size:1.8rem; margin-bottom:10px; display:block; }
+    .icp-card h3 { font-weight:800; font-size:.95rem; margin-bottom:6px; color:var(--blue); }
+    .icp-card p { color:var(--muted); font-size:.88rem; font-weight:600; }
 
-    /* PRICING DEMO */
-    .demo-pricing {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 20px; margin-top: 20px;
+    /* TESTIMONIALS */
+    .testi-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:22px; }
+    .dm-card { background:#1C1C1E; border-radius:18px; padding:18px; }
+    .dm-header { display:flex; align-items:center; gap:10px; margin-bottom:14px; padding-bottom:12px; border-bottom:1px solid rgba(255,255,255,.08); }
+    .dm-avatar {
+      width:36px; height:36px; border-radius:50%; flex-shrink:0;
+      background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+      display:flex; align-items:center; justify-content:center; font-size:1rem;
     }
-    .demo-price-card {
-      background: var(--bg); border: 2px solid var(--border);
-      border-radius: 18px; padding: 24px;
-    }
-    .demo-price-card.featured { background: var(--yellow-light); border-color: var(--yellow); }
-    .demo-price-card h3 { font-weight: 800; margin-bottom: 12px; }
-    .demo-strike { text-decoration: line-through; color: var(--red); font-size: .9rem; font-weight: 700; }
-    .demo-price { font-weight: 900; font-size: 2.4rem; color: var(--green); }
-    .demo-save {
-      display: inline-block; background: var(--red); color: #fff;
-      font-size: .72rem; font-weight: 800; padding: 2px 8px; border-radius: 100px; margin-left: 6px;
-    }
+    .dm-name   { font-weight:800; font-size:.86rem; color:#fff; }
+    .dm-handle { font-size:.72rem; color:rgba(255,255,255,.4); }
+    .dm-platform { margin-left:auto; font-size:.7rem; color:rgba(255,255,255,.25); }
+    .dm-stars  { color:var(--yellow); font-size:.9rem; margin-bottom:8px; }
+    .dm-bubble { background:#2C2C2E; border-radius:14px 14px 14px 4px; padding:12px 14px; }
+    .dm-bubble p { color:#F0F0F0; font-size:.86rem; font-weight:600; line-height:1.55; }
+    .dm-time   { font-size:.7rem; color:rgba(255,255,255,.3); padding:6px 2px 0; }
 
-    /* TESTIMONIAL DEMO */
-    .demo-dm {
-      background: #1C1C1E; border-radius: 18px; padding: 20px; max-width: 420px;
+    /* PRICING */
+    .pricing-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; align-items:start; }
+    .price-card {
+      background:var(--white); border:2px solid var(--border); border-radius:20px;
+      padding:32px 26px; position:relative; transition:border-color .2s, transform .2s;
     }
-    .demo-dm-header { display: flex; gap: 10px; align-items: center; margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,.1); }
-    .demo-dm-avatar {
-      width: 36px; height: 36px; border-radius: 50%;
-      background: linear-gradient(135deg, #f09433, #dc2743, #bc1888);
-      flex-shrink: 0;
+    .price-card:hover { transform:translateY(-3px); }
+    .price-card.featured { border-color:var(--yellow); background:linear-gradient(135deg,var(--yellow-light),var(--white)); }
+    .pc-badge {
+      position:absolute; top:-13px; left:20px;
+      font-size:.68rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase;
+      padding:4px 12px; border-radius:100px;
     }
-    .demo-dm-name { font-weight: 800; font-size: .85rem; color: #fff; }
-    .demo-dm-handle { font-size: .72rem; color: rgba(255,255,255,.4); }
-    .demo-dm-bubble { background: #2C2C2E; border-radius: 14px 14px 14px 4px; padding: 12px 14px; }
-    .demo-dm-bubble p { color: #F0F0F0; font-size: .85rem; font-weight: 600; line-height: 1.5; }
-    .demo-dm-time { font-size: .7rem; color: rgba(255,255,255,.3); padding: 6px 4px 0; }
+    .pc-badge-yellow { background:var(--yellow); color:#1A1A1A; }
+    .price-card h3 { font-weight:800; margin-bottom:14px; }
+    .price-row { display:flex; align-items:baseline; gap:8px; margin-bottom:4px; flex-wrap:wrap; }
+    .p-strike { font-size:.9rem; font-weight:700; color:var(--red); text-decoration:line-through; }
+    .p-now    { font-weight:900; font-size:3rem; color:var(--green); line-height:1; }
+    .p-now sup { font-size:1.1rem; vertical-align:top; margin-top:8px; display:inline-block; }
+    .p-save   { background:var(--red); color:#fff; font-size:.7rem; font-weight:800; padding:2px 8px; border-radius:100px; }
+    .p-desc   { color:var(--muted); font-size:.86rem; font-weight:600; margin-bottom:18px; }
+    .f-list   { list-style:none; }
+    .f-list li { padding:4px 0; font-size:.86rem; font-weight:600; display:flex; gap:8px; }
+    .f-list li::before { content:'✓'; color:var(--green); font-weight:900; flex-shrink:0; }
+    .workshop-tag { background:var(--red); color:#fff; font-size:.78rem; font-weight:800; padding:7px 14px; border-radius:10px; text-align:center; margin-top:16px; }
 
-    /* FAQ DEMO */
-    .demo-faq { border: 2px solid var(--border); border-radius: 14px; overflow: hidden; margin-top: 20px; }
-    .demo-faq-q {
-      padding: 16px 20px; font-weight: 800; font-size: .95rem;
-      border-bottom: 2px solid var(--border); background: var(--white);
-    }
-    .demo-faq-a { padding: 16px 20px; color: var(--muted); font-weight: 600; font-size: .88rem; background: var(--bg); }
+    /* GUARANTEES */
+    .guarantee-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; }
+    .guarantee-card { background:var(--white); border:2px solid var(--green); border-radius:18px; padding:26px 20px; text-align:center; }
+    .gi { font-size:2.2rem; margin-bottom:10px; display:block; }
+    .guarantee-card h3 { font-weight:800; font-size:.95rem; color:var(--green); margin-bottom:6px; }
+    .guarantee-card p  { color:var(--muted); font-size:.86rem; font-weight:600; }
 
-    /* CHECKLIST */
-    .checklist { list-style: none; margin-top: 16px; }
-    .checklist li {
-      padding: 8px 0; font-weight: 700; font-size: .92rem;
-      border-bottom: 1px solid var(--border); display: flex; gap: 10px;
+    /* FAQ */
+    .faq-list { max-width:740px; }
+    .faq-item { border-bottom:2px solid var(--border); }
+    .faq-item:first-child { border-top:2px solid var(--border); }
+    .faq-q {
+      width:100%; background:none; border:none; cursor:pointer; text-align:left;
+      padding:18px 0; display:flex; justify-content:space-between; align-items:center;
+      font-family:'Nunito',sans-serif; font-weight:800; font-size:.96rem; color:var(--text);
     }
-    .checklist li:last-child { border: none; }
-    .checklist li.ok::before { content: '✓'; color: var(--green); font-weight: 900; }
-    .checklist li.bad::before { content: '✗'; color: var(--red); font-weight: 900; }
+    .faq-q .arrow { transition:transform .25s; flex-shrink:0; margin-left:14px; font-size:1rem; }
+    .faq-item.open .faq-q .arrow { transform:rotate(180deg); }
+    .faq-a { max-height:0; overflow:hidden; transition:max-height .3s ease; }
+    .faq-item.open .faq-a { max-height:400px; }
+    .faq-a p { padding:0 0 18px; color:var(--muted); font-size:.9rem; font-weight:600; line-height:1.65; }
+
+    /* SKILL MAP */
+    .skill-map { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
+    .skill-phase { background:var(--white); border:2px solid var(--border); border-radius:16px; padding:20px; }
+    .skill-phase h3 { font-weight:800; font-size:.85rem; color:var(--blue); text-transform:uppercase; letter-spacing:.06em; margin-bottom:12px; }
+    .skill-phase ol { padding-left:18px; }
+    .skill-phase li { font-size:.84rem; font-weight:700; padding:3px 0; color:var(--text); }
+
+    /* NEWSLETTER */
+    #newsletter { background:var(--blue); }
+    .nl-inner { text-align:center; max-width:560px; margin:0 auto; }
+    .nl-inner h2 { font-weight:900; font-size:clamp(1.5rem,3.5vw,2rem); color:#fff; margin-bottom:10px; }
+    .nl-inner p  { color:rgba(255,255,255,.75); font-weight:600; margin-bottom:24px; }
+    .nl-form { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; }
+    .nl-input {
+      flex:1; min-width:200px; max-width:320px;
+      padding:13px 18px; border-radius:12px;
+      border:2px solid rgba(255,255,255,.2); background:rgba(255,255,255,.1);
+      color:#fff; font-family:'Nunito',sans-serif; font-weight:700; font-size:.93rem;
+    }
+    .nl-input::placeholder { color:rgba(255,255,255,.5); }
+    .nl-input:focus { outline:none; border-color:var(--yellow); }
+    .nl-note { color:rgba(255,255,255,.45); font-size:.76rem; font-weight:600; margin-top:10px; }
+
+    /* CONTACT */
+    #contact { background:var(--white); border-top:2px solid var(--border); }
+    .contact-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:16px; }
+    .contact-card { background:var(--bg); border:2px solid var(--border); border-radius:16px; padding:24px 20px; }
+    .contact-card:hover { border-color:var(--blue); }
+    .cc-label { font-size:.7rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+    .contact-card a, .contact-card span { color:var(--text); text-decoration:none; font-weight:800; font-size:.98rem; display:block; }
+    .contact-card a:hover { color:var(--blue); }
+
+    /* DO/DONT */
+    .do-dont { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:18px; }
+    .do  { background:var(--green-light); border:2px solid #86EFAC; border-radius:14px; padding:16px; }
+    .dont{ background:var(--red-light);   border:2px solid #FCA5A5; border-radius:14px; padding:16px; }
+    .do h4  { color:var(--green); font-weight:800; font-size:.82rem; margin-bottom:8px; }
+    .dont h4{ color:var(--red);   font-weight:800; font-size:.82rem; margin-bottom:8px; }
+    .do ul,.dont ul { padding-left:14px; font-size:.83rem; font-weight:600; }
+    .do li,.dont li { margin-bottom:4px; }
+
+    /* CTA REPEAT BAND */
+    .cta-band { background:var(--bg); border-top:2px solid var(--border); border-bottom:2px solid var(--border); padding:40px 24px; text-align:center; }
+    .cta-band h2 { font-weight:900; font-size:1.6rem; margin-bottom:8px; }
+    .cta-band p  { color:var(--muted); font-weight:600; margin-bottom:22px; }
 
     /* FOOTER */
-    footer {
-      background: #111; color: rgba(255,255,255,.5);
-      text-align: center; padding: 28px 24px; font-size: .85rem; font-weight: 600;
-    }
-    footer a { color: rgba(255,255,255,.5); text-decoration: none; }
+    footer { background:#111; color:rgba(255,255,255,.5); padding:26px 24px; font-size:.82rem; font-weight:600; }
+    .footer-inner { max-width:960px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+    .footer-links { display:flex; gap:18px; flex-wrap:wrap; }
+    footer a { color:rgba(255,255,255,.5); text-decoration:none; transition:color .15s; }
+    footer a:hover { color:var(--yellow); }
 
-    @media (max-width: 600px) {
-      .do-dont { grid-template-columns: 1fr; }
-      .lang-toggle { top: 8px; right: 8px; }
-      section { padding: 56px 16px; }
-      .lesson-block { padding: 28px 20px; }
+    @media (max-width:640px) {
+      .lang-toggle { top:8px; right:8px; }
+      section { padding:56px 16px; }
+      .do-dont { grid-template-columns:1fr; }
+      .hero { padding:64px 16px; }
     }
   </style>
 </head>
 <body>
 
-<!-- LANGUAGE TOGGLE -->
+<!-- COOKIE BANNER -->
+<div id="cookie-banner">
+  <p>Ta spletna stran uporablja piškotke za analitiko. <a href="privacy.html">Politika zasebnosti</a></p>
+  <div class="ck-btns">
+    <button class="ck-decline" onclick="dismissCookies()">Zavrni</button>
+    <button class="ck-accept"  onclick="acceptCookies()">Sprejmi</button>
+  </div>
+</div>
+
+<!-- LANG TOGGLE -->
 <div class="lang-toggle">
   <button class="lang-btn active" onclick="setLang('sl')">🇸🇮 SL</button>
-  <button class="lang-btn" onclick="setLang('en')">🇬🇧 EN</button>
+  <button class="lang-btn"        onclick="setLang('en')">🇬🇧 EN</button>
 </div>
 
+<!-- URGENCY BAR — ELEMENT 1 -->
+<div class="urgency">
+  <span data-sl="Skill #1 — Nujnost: ta vrstica sili bralca, da ne odloži." data-en="Skill #1 — Urgency: this bar forces the reader not to postpone.">Skill #1 &mdash; Nujnost: ta vrstica sili bralca, da ne odloži.</span>
+</div>
+
+<!-- NAV -->
 <nav>
   <a class="nav-logo" href="#">Website Dojo</a>
-  <span class="nav-pill" data-sl="Vadišče za konverzije" data-en="Conversion Dojo">Vadišče za konverzije</span>
+  <span class="nav-pill" data-sl="Vadišče za konverzije" data-en="Conversion playbook">Vadišče za konverzije</span>
 </nav>
 
-<!-- HERO (LESSON 0: The hero formula) -->
+<!-- HERO — ELEMENT 2 -->
 <section class="hero">
-  <div class="annotation">
-    <strong>Lekcija 0 &mdash; Hero sekcija:</strong>
-    Bralec v 5 sekundah odloči ali ostane. Badge + H1 (problem/rešitev) + podnaslov (kdo si, komu pomagaš) + en CTA. Nič drugega.
+  <div class="annot">
+    <strong data-sl="Skill #2 — Hero formula:" data-en="Skill #2 — Hero formula:">Skill #2 &mdash; Hero formula:</strong>
+    <span data-sl="Badge (kdo si) + H1 (rešitev problema) + sub (transformacija) + en primarni CTA. Nič drugega." data-en="Badge (who you are) + H1 (solution) + sub (transformation) + one primary CTA. Nothing else."> Badge (kdo si) + H1 (rešitev problema) + sub (transformacija) + en primarni CTA.</span>
   </div>
-  <div class="hero-badge" data-sl="Vadišče za gradnjo spletnih strani" data-en="Website Building Dojo">Vadišče za gradnjo spletnih strani</div>
-  <h1 data-sl="Spletna stran, ki <em>prodaja</em> — ne samo obstaja" data-en="A website that <em>converts</em> — not just exists">Spletna stran, ki <em>prodaja</em> &mdash; ne samo obstaja</h1>
-  <p class="hero-sub" data-sl="Vsak element na tej strani je primer dobre prakse. Opazujte, pokopirajte, izboljšajte." data-en="Every element on this page is a best-practice example. Observe, copy, improve.">Vsak element na tej strani je primer dobre prakse. Opazujte, pokopirajte, izboljšajte.</p>
-  <a class="cta-primary" href="#lekcije" data-sl="Začni brati" data-en="Start reading">Začni brati</a>
+  <div class="hero-badge" data-sl="Vadišče za spletni marketing" data-en="Website Conversion Playbook">Vadišče za spletni marketing</div>
+  <h1 data-sl="Naučite se zgraditi spletno stran, ki <em>prodaja</em>" data-en="Learn to build a website that <em>converts</em>">Naučite se zgraditi spletno stran, ki <em>prodaja</em></h1>
+  <p class="hero-sub" data-sl="Za podjetnike in freelancerje, ki imajo stran ki obstaja — ne pa prodaja. Vsak element na tej strani je živi primer. Opazujte, pokopirajte, izboljšajte." data-en="For entrepreneurs and freelancers with a website that exists — but doesn't convert. Every element here is a live example. Observe, copy, improve.">Za podjetnike in freelancerje, ki imajo stran ki obstaja, ne pa prodaja. Vsak element je živi primer. Opazujte, pokopirajte, izboljšajte.</p>
+  <div class="hero-cta-row">
+    <a class="btn btn-blue" href="#skillmap" data-sl="Poglej skill map" data-en="See skill map">Poglej skill map</a>
+    <a class="btn btn-outline" href="#contact" data-sl="Stopite v stik" data-en="Get in touch">Stopite v stik</a>
+  </div>
 </section>
 
-<!-- TRUST BAR -->
+<!-- TRUST BAR — ELEMENT 3 -->
 <div class="trust-bar">
-  <span class="trust-item" data-sl="Preverjena formula" data-en="Proven formula">Preverjena formula</span>
-  <span class="trust-item" data-sl="Primeri iz prakse" data-en="Real-world examples">Primeri iz prakse</span>
-  <span class="trust-item" data-sl="Do in ne-dela" data-en="Do's and don'ts">Do &amp; Don'ts</span>
-  <span class="trust-item" data-sl="Dvojezično: SL + EN" data-en="Bilingual: SL + EN">Dvojezično: SL + EN</span>
+  <span class="annot" style="margin:0;padding:6px 12px;font-size:.75rem;" data-sl="Skill #3 — Signali zaupanja: kratko, brez hvaljenja." data-en="Skill #3 — Trust signals: short, no boasting.">Skill #3 &mdash; Signali zaupanja</span>
+  <span class="trust-item" data-sl="27 konverzijskih elementov" data-en="27 conversion elements">27 konverzijskih elementov</span>
+  <span class="trust-item" data-sl="Živi primeri na vsaki sekciji" data-en="Live examples on every section">Živi primeri na vsaki sekciji</span>
+  <span class="trust-item" data-sl="Dual SL &amp; EN" data-en="Dual SL &amp; EN">Dual SL &amp; EN</span>
 </div>
 
-<section id="lekcije">
-<div class="container">
-
-  <!-- LESSON 1: Urgency -->
-  <div class="lesson-block">
-    <span class="lesson-num" data-sl="LEKCIJA 1" data-en="LESSON 1">LEKCIJA 1</span>
-    <h2 data-sl="Nujnost: zakaj mora bralec ukrepati zdaj" data-en="Urgency: why the reader must act now">Nujnost: zakaj mora bralec ukrepati zdaj</h2>
-    <p data-sl="Brez nujnosti bralec odloži odločitev. Dodajte časovni ali količinski pritisk takoj na vrhu strani." data-en="Without urgency the reader postpones. Add time or quantity pressure at the very top.">Brez nujnosti bralec odloži odločitev. Dodajte časovni ali količinski pritisk takoj na vrhu strani.</p>
-    <div class="do-dont">
-      <div class="do">
-        <h4>Naredi</h4>
-        <ul>
-          <li>Rdeča vrstica z omejenim številom mest</li>
-          <li>Rok za posebno ceno ("samo na delavnici")</li>
-          <li>Števec prostih terminov</li>
-        </ul>
+<!-- ICP — ELEMENT 4 -->
+<section style="background:var(--blue-light);">
+  <div class="container">
+    <div class="annot">
+      <strong data-sl="Skill #4 — ICP (Idealna ciljna stranka):" data-en="Skill #4 — ICP (Ideal Customer Profile):">Skill #4 &mdash; ICP:</strong>
+      <span data-sl="Povejte natanko komu je stran namenjena, kateri problem rešujete in kakšna je transformacija. Bralec se mora prepoznati." data-en="Tell exactly who this is for, what problem you solve, what transformation you provide."> Komu, kateri problem, kakšna transformacija. Bralec se mora prepoznati.</span>
+    </div>
+    <span class="section-label lb-blue" data-sl="Za koga" data-en="Who this is for">Za koga</span>
+    <h2 class="section-title" data-sl="Poznate ta problem?" data-en="Do you recognise this problem?">Poznate ta problem?</h2>
+    <p class="section-sub" data-sl="Ta vadišče je za vas, če..." data-en="This dojo is for you if...">Ta vadišče je za vas, če...</p>
+    <div class="icp-grid">
+      <div class="icp-card">
+        <span class="ico">😤</span>
+        <h3 data-sl="Imate lepo stran — pa nič povpraševanj" data-en="You have a nice page — but no enquiries">Imate lepo stran, pa nič povpraševanj</h3>
+        <p data-sl="Obiskovalci pridejo in odidejo brez akcije. Stran je digitalna brošura." data-en="Visitors come and leave without acting. The page is a digital brochure.">Obiskovalci pridejo in odidejo brez akcije.</p>
       </div>
-      <div class="dont">
-        <h4>Ne naredi</h4>
-        <ul>
-          <li>Lažni odštevalniki</li>
-          <li>Vedno "zadnji kosi" brez resnice</li>
-          <li>Pretirano kričanje (CAPS LOCK)</li>
-        </ul>
+      <div class="icp-card">
+        <span class="ico">💸</span>
+        <h3 data-sl="Plačujete oglaševanje, konverzija je slaba" data-en="You're paying for ads with poor conversion">Plačujete oglaševanje, konverzija je slaba</h3>
+        <p data-sl="Vsak obiskovalec stane — a se večina ne javi. Problem ni promet, problem je stran." data-en="Every visitor costs money but most don't convert. The problem isn't traffic, it's the page.">Problem ni promet, problem je stran.</p>
+      </div>
+      <div class="icp-card">
+        <span class="ico">🤷</span>
+        <h3 data-sl="Ne veste kaj popravljati" data-en="You don't know what to fix">Ne veste kaj popravljati</h3>
+        <p data-sl="Vsak pove drugače. Ta vodič pokaže katere elemente ima vsaka stran, ki prodaja, in v kakšnem vrstnem redu." data-en="Everyone says something different. This guide shows which elements every converting page needs.">Vsak pove drugače. Ta vodič pokaže kaj in v kakšnem vrstnem redu.</p>
       </div>
     </div>
   </div>
-
-  <!-- LESSON 2: Hero copy -->
-  <div class="lesson-block">
-    <span class="lesson-num" data-sl="LEKCIJA 2" data-en="LESSON 2">LEKCIJA 2</span>
-    <h2 data-sl="Copywriting: govorite o problemu, ne o sebi" data-en="Copywriting: speak to the problem, not yourself">Copywriting: govorite o problemu, ne o sebi</h2>
-    <p data-sl="Stranka jo zanima samo ena stvar: kako ji boste rešili problem. Začnite z njihovim problemom, ne z vašo ponudbo." data-en="The customer only cares about one thing: how you solve their problem. Start with their problem, not your offer.">Stranka jo zanima samo ena stvar: kako ji boste rešili problem. Začnite z njihovim problemom, ne z vašo ponudbo.</p>
-    <ul class="checklist">
-      <li class="ok" data-sl="H1: jasna rešitev problema ciljne stranke" data-en="H1: clear solution to your target customer's problem">H1: jasna rešitev problema ciljne stranke</li>
-      <li class="ok" data-sl="Podnaslov: kdo ste, komu pomagate, zakaj zdaj" data-en="Subtitle: who you are, who you help, why now">Podnaslov: kdo ste, komu pomagate, zakaj zdaj</li>
-      <li class="bad" data-sl="H1: 'Dobrodošli na naši strani'" data-en="H1: 'Welcome to our website'">"Dobrodošli na naši strani" v H1</li>
-      <li class="bad" data-sl="Začeti z letnico ustanovitve podjetja" data-en="Starting with your company founding year">Začeti z letnico ustanovitve podjetja</li>
-    </ul>
-  </div>
-
-  <!-- LESSON 3: Pricing -->
-  <div class="lesson-block">
-    <span class="lesson-num" data-sl="LEKCIJA 3" data-en="LESSON 3">LEKCIJA 3</span>
-    <h2 data-sl="Sidranje cen: pokažite višjo ceno najprej" data-en="Price anchoring: show the higher price first">Sidranje cen: pokažite višjo ceno najprej</h2>
-    <p data-sl="Prva cena, ki jo bralec vidi, postane referenčna točka. Vse kar sledi izgleda relativno ceneje ali draže." data-en="The first price the reader sees becomes the reference point. Everything after looks relatively cheaper or more expensive.">Prva cena, ki jo bralec vidi, postane referenčna točka. Vse kar sledi izgleda relativno ceneje ali draže.</p>
-    <div class="demo-pricing">
-      <div class="demo-price-card featured">
-        <h3>Najboljša vrednost (pokaži prvo)</h3>
-        <div><span class="demo-strike">62 EUR</span> <span class="demo-save">-27%</span></div>
-        <div class="demo-price">45 EUR</div>
-        <p style="font-size:.82rem;color:#5A5A5A;margin-top:8px;font-weight:600;">Samo na delavnici</p>
-      </div>
-      <div class="demo-price-card">
-        <h3>Osnovna opcija (pokaži drugo)</h3>
-        <div class="demo-price" style="font-size:2rem;">25 EUR</div>
-        <p style="font-size:.82rem;color:#5A5A5A;margin-top:8px;font-weight:600;">Manj vrednosti</p>
-      </div>
-      <div class="demo-price-card">
-        <h3>Minimalna opcija (pokaži zadnjo)</h3>
-        <div class="demo-price" style="font-size:1.8rem;color:var(--muted);">8 EUR</div>
-        <p style="font-size:.82rem;color:#5A5A5A;margin-top:8px;font-weight:600;">Naredi 25 EUR privlačnih</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- LESSON 4: Social proof -->
-  <div class="lesson-block">
-    <span class="lesson-num" data-sl="LEKCIJA 4" data-en="LESSON 4">LEKCIJA 4</span>
-    <h2 data-sl="Socialni dokaz: DM posnetek je vrednejši od lepega citata" data-en="Social proof: a DM screenshot beats a polished quote">Socialni dokaz: DM posnetek je vrednejši od lepega citata</h2>
-    <p data-sl="Sporočilo v slogu messagerja izgleda pristno. Formalni citatni bloki izgledajo kot da so izmišljeni." data-en="Messenger-style messages look authentic. Formal quote blocks look fabricated.">Sporočilo v slogu messagerja izgleda pristno. Formalni citatni bloki izgledajo kot da so izmišljeni.</p>
-    <div class="demo-dm">
-      <div class="demo-dm-header">
-        <div class="demo-dm-avatar"></div>
-        <div>
-          <div class="demo-dm-name">Maja Kovač</div>
-          <div class="demo-dm-handle">@maja.kovac &middot; Instagram DM</div>
-        </div>
-      </div>
-      <div class="demo-dm-bubble">
-        <p>Otrok je bil celo uro brez telefona, jaz pa sem prvič popila kavo brez prekinitev. To je bila najboljša odločitev.</p>
-      </div>
-      <div class="demo-dm-time">včeraj ob 18:42 &middot; Prebrano</div>
-    </div>
-  </div>
-
-  <!-- LESSON 5: FAQ -->
-  <div class="lesson-block">
-    <span class="lesson-num" data-sl="LEKCIJA 5" data-en="LESSON 5">LEKCIJA 5</span>
-    <h2 data-sl="FAQ: odgovorite na ugovore preden se pojavijo" data-en="FAQ: answer objections before they arise">FAQ: odgovorite na ugovore preden se pojavijo</h2>
-    <p data-sl="Vsako vprašanje v FAQ je ugovor stranke v preobleči. Accordion format ohranja stran pregledno. JSON-LD schema pomaga pri Google rich results in AI iskalnikih." data-en="Every FAQ question is a customer objection in disguise. Accordion keeps the page clean. JSON-LD schema helps with Google rich results and AI search.">Vsako vprašanje v FAQ je ugovor stranke v preobleči. Accordion ohranja stran pregledno. JSON-LD schema pomaga pri AI iskanju.</p>
-    <div class="demo-faq">
-      <div class="demo-faq-q" data-sl="Je to res brezplačno?" data-en="Is this really free?">Je to res brezplačno?</div>
-      <div class="demo-faq-a" data-sl="Da. Vstop je brezplačen. Prodaja se zgodi samo, ker je izkušnja dobra — ne ker pritiskamo." data-en="Yes. Entry is free. The sale happens because the experience is good — not because we pressure.">Da. Vstop je brezplačen. Prodaja se zgodi samo, ker je izkušnja dobra.</div>
-    </div>
-  </div>
-
-  <!-- LESSON 6: SEO -->
-  <div class="lesson-block">
-    <span class="lesson-num" data-sl="LEKCIJA 6" data-en="LESSON 6">LEKCIJA 6</span>
-    <h2 data-sl="SEO: meta, schema, hitrost" data-en="SEO: meta, schema, speed">SEO: meta, schema, hitrost</h2>
-    <p data-sl="Osnove, ki jih večina preskoči in potem sprašuje zakaj stran ne najdejo." data-en="Basics that most people skip and then wonder why nobody finds their page.">Osnove, ki jih večina preskoči in potem sprašuje zakaj stran ne najdejo.</p>
-    <ul class="checklist">
-      <li class="ok" data-sl="Title tag: ključna beseda + blagovna znamka, max 60 znakov" data-en="Title tag: keyword + brand, max 60 chars">Title tag z ključno besedo, max 60 znakov</li>
-      <li class="ok" data-sl="Meta description: vrednostna ponudba + CTA, 150-160 znakov" data-en="Meta description: value prop + CTA, 150-160 chars">Meta description z vrednostno ponudbo, 150-160 znakov</li>
-      <li class="ok" data-sl="FAQ schema (JSON-LD): Google rich results + AI iskalniki" data-en="FAQ schema (JSON-LD): Google rich results + AI search">FAQ JSON-LD schema za AI iskanje</li>
-      <li class="ok" data-sl="Local Business schema: ime, naslov, telefon, ure" data-en="Local Business schema: name, address, phone, hours">Local Business schema za lokalno iskanje</li>
-      <li class="ok" data-sl="Open Graph: thumbnail za Facebook, LinkedIn, WhatsApp share" data-en="Open Graph: thumbnail for Facebook, LinkedIn, WhatsApp share">Open Graph za socialne medije</li>
-      <li class="bad" data-sl="Isti H1 in title tag" data-en="Same H1 and title tag">Isti H1 in title tag (podvajanje)</li>
-      <li class="bad" data-sl="Brez canonical taga na podstraneh" data-en="No canonical tag on subpages">Brez canonical taga</li>
-    </ul>
-  </div>
-
-</div>
 </section>
 
+<!-- CTA REPEAT #1 -->
+<div class="cta-band">
+  <div class="annot" style="max-width:600px;margin:0 auto 20px;">
+    <strong data-sl="Skill #5 — CTA ponovitev:" data-en="Skill #5 — CTA repetition:">Skill #5 &mdash; CTA ponovitev:</strong>
+    <span data-sl="Ponovi primarni poziv k dejanju vsake 2-3 sekcije. Bralec je morda pripravljen zdaj, ne šele na koncu." data-en="Repeat the primary CTA every 2-3 sections. The reader may be ready now, not at the end."> Ponovi CTA vsake 2-3 sekcije.</span>
+  </div>
+  <h2 data-sl="Prijavite se na novičnik in prejmite skill map" data-en="Subscribe and get the full skill map">Prijavite se in prejmite skill map</h2>
+  <p data-sl="Brezplačno. Brez neželene pošte." data-en="Free. No spam.">Brezplačno. Brez neželene pošte.</p>
+  <a class="btn btn-blue" href="#newsletter" data-sl="Prijavite se" data-en="Subscribe">Prijavite se</a>
+</div>
+
+<!-- TESTIMONIALS — ELEMENT 6 -->
+<section style="background:var(--white);">
+  <div class="container">
+    <div class="annot">
+      <strong data-sl="Skill #6 — Socialni dokaz:" data-en="Skill #6 — Social proof:">Skill #6 &mdash; Socialni dokaz:</strong>
+      <span data-sl="DM posnetek + zvezdice. Izgleda pristno. Formalni citatni bloki izgledajo izmišljeni." data-en="DM screenshot + star rating. Looks authentic. Formal quote blocks look fabricated."> DM posnetek + zvezdice. Pristno deluje.</span>
+    </div>
+    <span class="section-label lb-green" data-sl="Mnenja" data-en="Testimonials">Mnenja</span>
+    <h2 class="section-title" data-sl="Kaj pravijo tisti, ki so že naredili" data-en="What those who've done it say">Kaj pravijo tisti, ki so že naredili</h2>
+    <div class="testi-grid">
+      <div class="dm-card">
+        <div class="dm-header">
+          <div class="dm-avatar">M</div>
+          <div>
+            <div class="dm-name">Maja K.</div>
+            <div class="dm-handle">@maja.podjetnica</div>
+          </div>
+          <div class="dm-platform">Instagram DM</div>
+        </div>
+        <div class="dm-stars">★★★★★</div>
+        <div class="dm-bubble">
+          <p data-sl="Sledila sem vrstico za vrstico in v enem popoldnevu je stran izgledala povsem drugače. V dveh tednih so prišla prva povpraševanja." data-en="I followed it line by line and in one afternoon the page looked completely different. First enquiries came within two weeks.">Sledila sem vrstico za vrstico in v enem popoldnevu je stran izgledala povsem drugače. V dveh tednih so prišla prva povpraševanja.</p>
+        </div>
+        <div class="dm-time" data-sl="pred 3 dnevi &middot; Prebrano" data-en="3 days ago &middot; Read">pred 3 dnevi &middot; Prebrano</div>
+      </div>
+      <div class="dm-card">
+        <div class="dm-header">
+          <div class="dm-avatar">T</div>
+          <div>
+            <div class="dm-name">Tomaž P.</div>
+            <div class="dm-handle">@tomaz.freelancer</div>
+          </div>
+          <div class="dm-platform">Facebook</div>
+        </div>
+        <div class="dm-stars">★★★★★</div>
+        <div class="dm-bubble">
+          <p data-sl="Imel sem stran 3 leta. Nič ni delovalo. Po tem vodiču sem spremenil hero sekcijo in ceno — in v prvem tednu 4 kontakti." data-en="I had the page for 3 years. Nothing worked. After this guide I changed the hero and pricing — 4 contacts in the first week.">Imel sem stran 3 leta. Nič ni delovalo. Po tem vodiču sem spremenil hero in ceno — v prvem tednu 4 kontakti.</p>
+        </div>
+        <div class="dm-time" data-sl="pred tednom &middot; Prebrano" data-en="a week ago &middot; Read">pred tednom &middot; Prebrano</div>
+      </div>
+      <div class="dm-card">
+        <div class="dm-header">
+          <div class="dm-avatar">A</div>
+          <div>
+            <div class="dm-name">Ana M.</div>
+            <div class="dm-handle">@ana.agencija</div>
+          </div>
+          <div class="dm-platform">Instagram DM</div>
+        </div>
+        <div class="dm-stars">★★★★★</div>
+        <div class="dm-bubble">
+          <p data-sl="Priporočam vsem strankam, ki sprašujejo zakaj njihova stran ne deluje. Razlaga je jasna, primeri so živi." data-en="I recommend this to every client who asks why their page doesn't work. The explanation is clear, examples are live.">Priporočam vsem strankam, ki sprašujejo zakaj njihova stran ne deluje. Razlaga je jasna, primeri so živi.</p>
+        </div>
+        <div class="dm-time" data-sl="včeraj &middot; Prebrano" data-en="yesterday &middot; Read">včeraj &middot; Prebrano</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING — ELEMENT 7 -->
+<section style="background:var(--bg);">
+  <div class="container">
+    <div class="annot">
+      <strong data-sl="Skill #7 — Sidranje cen:" data-en="Skill #7 — Price anchoring:">Skill #7 &mdash; Sidranje cen:</strong>
+      <span data-sl="Pokaži visoko ceno najprej (sidro). Nato popust (vrednost). Nato poceni opcijo (naredi srednji nivo privlačen)." data-en="Show high price first (anchor). Then discount (value). Then cheap option (makes middle attractive)."> Visoka cena najprej, popust, poceni opcija naredi srednji nivo privlačen.</span>
+    </div>
+    <span class="section-label lb-yellow" data-sl="Ponudba" data-en="Offer">Ponudba</span>
+    <h2 class="section-title" data-sl="Izberite svojo pot" data-en="Choose your path">Izberite svojo pot</h2>
+    <p class="section-sub" data-sl="Ekskluzivna cena za naročnike novičnika." data-en="Exclusive price for newsletter subscribers.">Ekskluzivna cena za naročnike novičnika.</p>
+    <div class="pricing-grid">
+      <div class="price-card featured">
+        <div class="pc-badge pc-badge-yellow" data-sl="Najboljša vrednost" data-en="Best value">Najboljša vrednost</div>
+        <h3 data-sl="Celoten vodič + predloge" data-en="Full guide + templates">Celoten vodič + predloge</h3>
+        <div class="price-row">
+          <span class="p-strike">149 EUR</span>
+          <span class="p-now"><sup>€</sup>89</span>
+          <span class="p-save" data-sl="-40%" data-en="-40%">-40%</span>
+        </div>
+        <p class="p-desc" data-sl="Samo za naročnike do konca meseca." data-en="Subscribers only until end of month.">Samo za naročnike do konca meseca.</p>
+        <ul class="f-list">
+          <li data-sl="Celoten 27-koračni skill map" data-en="Full 27-step skill map">Celoten 27-koračni skill map</li>
+          <li data-sl="HTML predloge za vsak element" data-en="HTML templates for every element">HTML predloge za vsak element</li>
+          <li data-sl="Dvojezična podpora (SL + EN)" data-en="Bilingual support (SL + EN)">Dvojezična podpora (SL + EN)</li>
+          <li data-sl="Posodobitve za vedno" data-en="Updates forever">Posodobitve za vedno</li>
+        </ul>
+        <div class="workshop-tag" data-sl="Samo za naročnike novičnika" data-en="Newsletter subscribers only">Samo za naročnike novičnika</div>
+      </div>
+      <div class="price-card">
+        <h3 data-sl="Osnovna verzija" data-en="Basic version">Osnovna verzija</h3>
+        <div class="price-row">
+          <span class="p-strike">59 EUR</span>
+          <span class="p-now" style="font-size:2.4rem;"><sup>€</sup>39</span>
+        </div>
+        <p class="p-desc" data-sl="Vodič brez predlog." data-en="Guide without templates.">Vodič brez predlog.</p>
+        <ul class="f-list">
+          <li data-sl="27-koračni skill map" data-en="27-step skill map">27-koračni skill map</li>
+          <li data-sl="Primeri za vsak element" data-en="Examples for every element">Primeri za vsak element</li>
+        </ul>
+      </div>
+      <div class="price-card">
+        <h3 data-sl="Samo besedilo (PDF)" data-en="Text only (PDF)">Samo besedilo (PDF)</h3>
+        <div class="price-row">
+          <span class="p-now" style="font-size:2rem;color:var(--muted);"><sup style="color:var(--muted);">€</sup>9</span>
+        </div>
+        <p class="p-desc" data-sl="Brez primerov, brez predlog." data-en="No examples, no templates.">Brez primerov, brez predlog.</p>
+        <ul class="f-list" style="opacity:.6;">
+          <li data-sl="Samo besedilni povzetek" data-en="Text summary only">Samo besedilni povzetek</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEES — ELEMENT 8 -->
+<section style="background:var(--green-light);">
+  <div class="container">
+    <div class="annot">
+      <strong data-sl="Skill #8 — Garancije:" data-en="Skill #8 — Guarantees:">Skill #8 &mdash; Garancije:</strong>
+      <span data-sl="Odstranijo tveganje nakupa. Bralec kupi bolj pogumno, ko ve da ga varovate." data-en="Remove purchase risk. The reader buys more boldly when they know you have their back."> Odstranijo tveganje. Bralec kupi pogumno.</span>
+    </div>
+    <span class="section-label lb-green" data-sl="Garancije" data-en="Guarantees">Garancije</span>
+    <h2 class="section-title" data-sl="Kupujete brez tveganja" data-en="Zero-risk purchase">Kupujete brez tveganja</h2>
+    <div class="guarantee-grid">
+      <div class="guarantee-card">
+        <span class="gi">😊</span>
+        <h3 data-sl="Garancija zadovoljstva" data-en="Satisfaction guarantee">Garancija zadovoljstva</h3>
+        <p data-sl="Niste zadovoljni? Vrnemo denar v 30 dneh, brez vprašanj." data-en="Not satisfied? Full refund within 30 days, no questions.">Niste zadovoljni? Vrnemo denar v 30 dneh.</p>
+      </div>
+      <div class="guarantee-card">
+        <span class="gi">🔄</span>
+        <h3 data-sl="Posodobitve za vedno" data-en="Lifetime updates">Posodobitve za vedno</h3>
+        <p data-sl="Spletni marketing se razvija. Vodič se posodablja. Enkrat kupite, vedno imate najnovejšo verzijo." data-en="Web marketing evolves. The guide updates. Buy once, always have the latest.">Enkrat kupite, vedno imate najnovejše.</p>
+      </div>
+      <div class="guarantee-card">
+        <span class="gi">🎯</span>
+        <h3 data-sl="Živi primeri" data-en="Live examples">Živi primeri</h3>
+        <p data-sl="Vsak element je prikazan na tej strani. Vidite točno kaj dobite preden kupite." data-en="Every element is shown on this page. You see exactly what you get before buying.">Vidite točno kaj dobite preden kupite.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ — ELEMENT 9 -->
+<section style="background:var(--bg);">
+  <div class="container">
+    <div class="annot">
+      <strong data-sl="Skill #9 — FAQ kot filter ugovorov + JSON-LD schema za AI iskanje:" data-en="Skill #9 — FAQ as objection filter + JSON-LD schema for AI search:">Skill #9 &mdash; FAQ + JSON-LD schema za AI iskanje.</strong>
+    </div>
+    <span class="section-label lb-blue" data-sl="Pogosta vprašanja" data-en="FAQ">Pogosta vprašanja</span>
+    <h2 class="section-title" data-sl="Odgovori na vaše dileme" data-en="Answers to your questions">Odgovori na vaše dileme</h2>
+    <div class="faq-list">
+      <div class="faq-item open">
+        <button class="faq-q"><span data-sl="Za koga je Website Dojo?" data-en="Who is Website Dojo for?">Za koga je Website Dojo?</span> <span class="arrow">▼</span></button>
+        <div class="faq-a"><p data-sl="Za podjetnike, freelancerje in agencije, ki želijo spletne strani, ki res prodajajo, ne samo izgledajo lepo." data-en="For entrepreneurs, freelancers and agencies who want websites that actually convert, not just look good.">Za podjetnike, freelancerje in agencije, ki želijo strani, ki res prodajajo.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-sl="Kaj je konverzijska spletna stran?" data-en="What is a conversion website?">Kaj je konverzijska spletna stran?</span> <span class="arrow">▼</span></button>
+        <div class="faq-a"><p data-sl="Stran z jasnim ciljem: obiskovalca pretvoriti v naročnika, stranko ali kontakt. Vsak element podpira ta cilj." data-en="A page with a clear goal: convert the visitor into a subscriber, customer or contact. Every element supports that goal.">Stran z jasnim ciljem. Vsak element podpira konverzijo.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-sl="Ali potrebujem tehničnega znanja?" data-en="Do I need technical knowledge?">Ali potrebujem tehničnega znanja?</span> <span class="arrow">▼</span></button>
+        <div class="faq-a"><p data-sl="Ne. Vodič je namenjen vsem. Tehnični elementi (schema, GA, pixel) so vključeni kot copy-paste predloge." data-en="No. The guide is for everyone. Technical elements (schema, GA, pixel) are included as copy-paste templates.">Ne. Tehnični elementi so copy-paste predloge.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-sl="Kateri elementi so na vsaki konverzijski strani?" data-en="Which elements does every converting page need?">Kateri elementi so na vsaki konverzijski strani?</span> <span class="arrow">▼</span></button>
+        <div class="faq-a"><p data-sl="ICP definicija, hero sekcija (badge+H1+sub+CTA), zaupanje, socialni dokaz z zvezdicami, sidranje cen (3 nivoji), garancije, FAQ z JSON-LD, newsletter, kontakt, cookie banner, GA, Meta Pixel, footer s TOS in Privacy." data-en="ICP definition, hero section, trust signals, star-rated social proof, 3-tier price anchoring, guarantees, FAQ with JSON-LD, newsletter, contact, cookie banner, GA, Meta Pixel, footer with TOS and Privacy.">ICP, hero, zaupanje, socialni dokaz, cena, garancije, FAQ schema, newsletter, kontakt, cookie, GA, Meta Pixel, TOS, Privacy.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILL MAP — ELEMENT 10 -->
+<section id="skillmap" style="background:var(--white); border-top:2px solid var(--border);">
+  <div class="container">
+    <div class="annot">
+      <strong data-sl="Skill #10 — Skill map (zaporedje):" data-en="Skill #10 — Skill map (sequence):">Skill #10 &mdash; Skill map.</strong>
+      <span data-sl="Vsaka stran se gradi v tem zaporedju. Preskočen korak = luknja v konverziji." data-en="Every page is built in this order. A skipped step = a hole in your conversion."> Vsak preskočen korak = luknja v konverziji.</span>
+    </div>
+    <span class="section-label lb-purple" data-sl="Skill Map" data-en="Skill Map">Skill Map</span>
+    <h2 class="section-title" data-sl="27 korakov do konverzijske strani" data-en="27 steps to a converting website">27 korakov do konverzijske strani</h2>
+    <div class="skill-map">
+      <div class="skill-phase">
+        <h3 data-sl="Faza 1 — Strategija" data-en="Phase 1 — Strategy">Faza 1 &mdash; Strategija</h3>
+        <ol>
+          <li data-sl="ICP: kdo, problem, transformacija" data-en="ICP: who, problem, transformation">ICP: kdo, problem, transformacija</li>
+          <li data-sl="Ključne besede (SEO strategija)" data-en="Keywords (SEO strategy)">Ključne besede (SEO strategija)</li>
+          <li data-sl="Edinstvena vrednostna ponudba (USP)" data-en="Unique value proposition (USP)">Edinstvena vrednostna ponudba</li>
+        </ol>
+      </div>
+      <div class="skill-phase">
+        <h3 data-sl="Faza 2 — Struktura" data-en="Phase 2 — Structure">Faza 2 &mdash; Struktura</h3>
+        <ol start="4">
+          <li data-sl="Anatomija strani (zaporedje sekcij)" data-en="Page anatomy (section order)">Anatomija strani</li>
+          <li data-sl="Informacijska hierarhija" data-en="Information hierarchy">Informacijska hierarhija</li>
+          <li data-sl="Mobile-first layout" data-en="Mobile-first layout">Mobile-first layout</li>
+        </ol>
+      </div>
+      <div class="skill-phase">
+        <h3 data-sl="Faza 3 — Copywriting" data-en="Phase 3 — Copywriting">Faza 3 &mdash; Copywriting</h3>
+        <ol start="7">
+          <li data-sl="Hero formula (badge+H1+sub+CTA)" data-en="Hero formula">Hero formula</li>
+          <li data-sl="Problem/rešitev okvirjanje" data-en="Problem/solution framing">Problem/rešitev okvirjanje</li>
+          <li data-sl="Vzorec H2 naslova sekcij" data-en="H2 section headline pattern">H2 naslov sekcij</li>
+          <li data-sl="Ton besedila in register" data-en="Tone and register">Ton in register</li>
+        </ol>
+      </div>
+      <div class="skill-phase">
+        <h3 data-sl="Faza 4 — Zaupanje" data-en="Phase 4 — Trust">Faza 4 &mdash; Zaupanje</h3>
+        <ol start="11">
+          <li data-sl="DM socialni dokaz + zvezdice" data-en="DM social proof + star ratings">DM socialni dokaz + zvezdice</li>
+          <li data-sl="Garancije (zadovoljstvo, zamenjava)" data-en="Guarantees">Garancije</li>
+          <li data-sl="Trust signals bar" data-en="Trust signals bar">Trust signals bar</li>
+        </ol>
+      </div>
+      <div class="skill-phase">
+        <h3 data-sl="Faza 5 — Konverzija" data-en="Phase 5 — Conversion">Faza 5 &mdash; Konverzija</h3>
+        <ol start="14">
+          <li data-sl="CTA ponovitev vsake 2-3 sekcije" data-en="CTA repetition every 2-3 sections">CTA ponovitev vsake 2-3 sekcije</li>
+          <li data-sl="Nujnost + FOMO (urgency bar)" data-en="Urgency + FOMO">Nujnost + FOMO</li>
+          <li data-sl="Sidranje cen (3 nivoji)" data-en="Price anchoring (3 tiers)">Sidranje cen (3 nivoji)</li>
+          <li data-sl="FAQ kot filter ugovorov" data-en="FAQ as objection filter">FAQ kot filter ugovorov</li>
+        </ol>
+      </div>
+      <div class="skill-phase">
+        <h3 data-sl="Faza 6 — Zajem" data-en="Phase 6 — Capture">Faza 6 &mdash; Zajem</h3>
+        <ol start="18">
+          <li data-sl="Newsletter / lead magnet" data-en="Newsletter / lead magnet">Newsletter / lead magnet</li>
+          <li data-sl="Kontakt (telefon, email)" data-en="Contact (phone, email)">Kontakt (telefon, email)</li>
+          <li data-sl="Lokacija + Google Maps" data-en="Location + Google Maps">Lokacija + Google Maps</li>
+        </ol>
+      </div>
+      <div class="skill-phase">
+        <h3 data-sl="Faza 7 — Tehnika" data-en="Phase 7 — Technical">Faza 7 &mdash; Tehnika</h3>
+        <ol start="21">
+          <li data-sl="SEO meta (title, description, canonical)" data-en="SEO meta">SEO meta tags</li>
+          <li data-sl="Open Graph + Twitter Card" data-en="Open Graph + Twitter Card">Open Graph + Twitter Card</li>
+          <li data-sl="Schema markup (FAQ, LocalBusiness)" data-en="Schema markup">Schema markup (JSON-LD)</li>
+          <li data-sl="Performance (preconnect, lazy load)" data-en="Performance">Performance</li>
+          <li data-sl="Cookie banner (GDPR)" data-en="Cookie banner (GDPR)">Cookie banner (GDPR)</li>
+          <li data-sl="GA4 + Meta Pixel sloti" data-en="GA4 + Meta Pixel slots">GA4 + Meta Pixel sloti</li>
+          <li data-sl="Dvojezičnost (language toggle)" data-en="Multilingual (language toggle)">Dvojezičnost</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA REPEAT #2 -->
+<div class="cta-band">
+  <h2 data-sl="Pripravljeni začeti?" data-en="Ready to start?">Pripravljeni začeti?</h2>
+  <p data-sl="Vpišite se in prejmite celoten vodič + predloge." data-en="Subscribe and receive the full guide + templates.">Vpišite se in prejmite celoten vodič + predloge.</p>
+  <a class="btn btn-blue" href="#newsletter" data-sl="Prijavite se brezplačno" data-en="Subscribe free">Prijavite se brezplačno</a>
+</div>
+
+<!-- NEWSLETTER — ELEMENT 11 -->
+<section id="newsletter">
+  <div class="container">
+    <div class="nl-inner">
+      <div class="annot" style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.3);color:rgba(255,255,255,.8);">
+        <strong data-sl="Skill #11 — Newsletter zajem:" data-en="Skill #11 — Newsletter capture:">Skill #11 &mdash; Newsletter zajem.</strong>
+        <span data-sl="Email + gumb + opomba o zasebnosti. Minimalno trenje." data-en="Email + button + privacy note. Minimum friction."> Email + gumb + opomba o zasebnosti.</span>
+      </div>
+      <h2 data-sl="Ne zamudite naslednje lekcije" data-en="Don't miss the next lesson">Ne zamudite naslednje lekcije</h2>
+      <p data-sl="Tedenski nasveti za gradnjo konverzijskih strani. Brez neželene pošte." data-en="Weekly tips for building converting pages. No spam.">Tedenski nasveti za gradnjo konverzijskih strani. Brez neželene pošte.</p>
+      <form class="nl-form" action="mailto:info@website-dojo.si" method="get" enctype="text/plain">
+        <input class="nl-input" type="email" name="email" placeholder="Vaš e-poštni naslov" required />
+        <button type="submit" class="btn btn-yellow" data-sl="Prijava" data-en="Subscribe">Prijava</button>
+      </form>
+      <p class="nl-note" data-sl="Vaši podatki so varni. Odjava kadarkoli." data-en="Your data is safe. Unsubscribe anytime.">Vaši podatki so varni. Odjava kadarkoli.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT — ELEMENT 12 -->
+<section id="contact">
+  <div class="container">
+    <div class="annot">
+      <strong data-sl="Skill #12 — Kontakt:" data-en="Skill #12 — Contact:">Skill #12 &mdash; Kontakt:</strong>
+      <span data-sl="Telefon + email vedno vidna. Naslov in ure za lokalna podjetja." data-en="Phone + email always visible. Address and hours for local businesses."> Telefon + email vedno vidna.</span>
+    </div>
+    <span class="section-label lb-green" data-sl="Kontakt" data-en="Contact">Kontakt</span>
+    <h2 class="section-title" style="margin-bottom:28px;" data-sl="Stopite v stik" data-en="Get in touch">Stopite v stik</h2>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="cc-label" data-sl="Telefon" data-en="Phone">Telefon</div>
+        <a href="tel:+38600000000">+386 00 000 000</a>
+      </div>
+      <div class="contact-card">
+        <div class="cc-label">E-pošta</div>
+        <a href="mailto:info@website-dojo.si">info@website-dojo.si</a>
+      </div>
+      <div class="contact-card">
+        <div class="cc-label" data-sl="Delovni čas" data-en="Hours">Delovni čas</div>
+        <span data-sl="Pon&ndash;Pet, 9:00&ndash;17:00" data-en="Mon&ndash;Fri, 9:00&ndash;17:00">Pon&ndash;Pet, 9:00&ndash;17:00</span>
+      </div>
+      <div class="contact-card">
+        <div class="cc-label" data-sl="Odgovor v" data-en="Response within">Odgovor v</div>
+        <span data-sl="24 urah" data-en="24 hours">24 urah</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
 <footer>
-  <p data-sl="Website Dojo — vadišče za konverzijsko spletno stran. Zgrajeno z istimi orodji, ki se jih učimo." data-en="Website Dojo — conversion website training ground. Built with the same tools we're learning.">Website Dojo &mdash; vadišče za konverzijsko spletno stran.</p>
+  <div class="footer-inner">
+    <span data-sl="© 2026 Website Dojo &middot; Vadišče za konverzijsko spletno stran" data-en="© 2026 Website Dojo &middot; Conversion website playbook">© 2026 Website Dojo &middot; Vadišče za konverzijsko spletno stran</span>
+    <div class="footer-links">
+      <a href="mailto:info@website-dojo.si">info@website-dojo.si</a>
+      <a href="privacy.html" data-sl="Politika zasebnosti" data-en="Privacy Policy">Politika zasebnosti</a>
+      <a href="tos.html" data-sl="Pogoji uporabe" data-en="Terms of Use">Pogoji uporabe</a>
+    </div>
+  </div>
 </footer>
 
 <script>
+  // LANGUAGE TOGGLE
   function setLang(lang) {
     document.documentElement.setAttribute('data-lang', lang);
     document.documentElement.setAttribute('lang', lang);
-
-    // Update all translatable elements
     document.querySelectorAll('[data-sl][data-en]').forEach(el => {
       const val = el.getAttribute('data-' + lang);
       if (!val) return;
-      // Title and meta need special handling
       if (el.tagName === 'TITLE') { el.textContent = val; return; }
       if (el.getAttribute('name') === 'description') { el.setAttribute('content', val); return; }
-      // For elements with HTML content (em tags etc)
-      if (val.includes('<')) { el.innerHTML = val; }
-      else { el.textContent = val; }
+      if (val.includes('<')) el.innerHTML = val; else el.textContent = val;
     });
-
-    // Update button states
     document.querySelectorAll('.lang-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.textContent.trim().includes(lang.toUpperCase()));
+      btn.classList.toggle('active', btn.textContent.includes(lang.toUpperCase()));
     });
-
     localStorage.setItem('preferred_lang', lang);
   }
+  const savedLang = localStorage.getItem('preferred_lang');
+  if (savedLang && savedLang !== 'sl') setLang(savedLang);
 
-  // Restore saved language preference
-  const saved = localStorage.getItem('preferred_lang');
-  if (saved && saved !== 'sl') setLang(saved);
+  // FAQ ACCORDION
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!wasOpen) item.classList.add('open');
+    });
+  });
+
+  // COOKIE BANNER
+  (function(){
+    if (!localStorage.getItem('cookie_consent'))
+      document.getElementById('cookie-banner').style.display = 'flex';
+  })();
+  function acceptCookies()  { localStorage.setItem('cookie_consent','accepted');  document.getElementById('cookie-banner').style.display='none'; }
+  function dismissCookies() { localStorage.setItem('cookie_consent','declined');  document.getElementById('cookie-banner').style.display='none'; }
 </script>
-
 </body>
 </html>
